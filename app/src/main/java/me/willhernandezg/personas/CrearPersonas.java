@@ -58,6 +58,7 @@ public class CrearPersonas extends AppCompatActivity {
         cajaCedula.setText("");
         cajaNombre.setText("");
         cajaApellido.setText("");
+        cajaSexo.setSelection(0);
         cajaCedula.requestFocus();
     }
 }
