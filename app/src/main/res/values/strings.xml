@@ -10,8 +10,16 @@
     <string name="mensaje_guardado">Persona Guardada Exitosamente</string>
     <string name="crear_personas">Crear</string>
     <string name="listar_personas">Listar</string>
+    <string name="masculino">Masculino</string>
+    <string name="femenino">Femenino</string>
+    <string name="sexo">Sexo</string>
+    <string-array name="sexo">
+        <item>@string/masculino</item>
+        <item>@string/femenino</item>
+    </string-array>
     <string-array name="opciones">
         <item>@string/crear_personas</item>
         <item>@string/listar_personas</item>
     </string-array>
+
 </resources>

@@ -8,12 +8,16 @@ public class Persona {
     private String cedula;
     private String nombre;
     private String apellido;
+    private int sexo;
 
-    public Persona(String cedula, String nombre, String apellido) {
+    public Persona(String cedula, String nombre, String apellido, int sexo) {
         this.cedula = cedula;
         this.nombre = nombre;
         this.apellido = apellido;
+        this.sexo = sexo;
     }
+
+
 
     public String getCedula() {
         return cedula;
@@ -37,6 +41,14 @@ public class Persona {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    public int getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(int sexo) {
+        this.sexo = sexo;
     }
 
     public void guardar(){
