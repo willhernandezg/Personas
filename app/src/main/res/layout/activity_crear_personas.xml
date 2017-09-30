@@ -21,36 +21,35 @@
         android:textStyle="bold" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/txtCedula"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:allowUndo="false"
+        android:autoText="false"
         android:ems="10"
         android:hint="@string/cedula"
         android:inputType="number"
         android:paddingTop="10dp"
-        android:text="@string/cedula"
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/txtNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/nombre"
         android:inputType="textPersonName"
         android:paddingTop="10dp"
-        android:text="@string/nombre"
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/txtApellido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
         android:hint="@string/apellido"
         android:inputType="textPersonName"
         android:paddingTop="10dp"
-        android:text="@string/apellido"
         android:textSize="20sp" />
 
     <LinearLayout
@@ -64,6 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="guardar"
             android:text="@string/guardar" />
 
         <Button
@@ -71,6 +71,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:onClick="limpiar"
             android:text="@string/limpiar" />
     </LinearLayout>
 </LinearLayout>
