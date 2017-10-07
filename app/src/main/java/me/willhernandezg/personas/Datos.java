@@ -7,8 +7,7 @@ import java.util.ArrayList;
  */
 
 public class Datos {
-
-    private static ArrayList<Persona> personas = new ArrayList<>();
+    private static ArrayList<Persona> personas = new ArrayList();
 
     public static void guardarPersona(Persona p){
         personas.add(p);
@@ -17,5 +16,4 @@ public class Datos {
     public static ArrayList<Persona> obtenerPersonas(){
         return personas;
     }
-
 }

@@ -7,7 +7,6 @@ import java.util.ArrayList;
  */
 
 public class Metodos {
-
     public static int cuantas_mujeres(ArrayList<Persona> personas){
 
         int cont =0;

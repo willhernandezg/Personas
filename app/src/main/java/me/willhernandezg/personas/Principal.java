@@ -17,16 +17,13 @@ public class Principal extends AppCompatActivity {
     private String opc[];
     private Intent i;
     private Context contexto;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal);
-
-        lstOpciones = (ListView) findViewById(R.id.lstOpciones);
+        lstOpciones = (ListView)findViewById(R.id.lstOpciones);
         res = this.getResources();
         contexto=this;
-
         opc = res.getStringArray(R.array.opciones);
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,opc);
         lstOpciones.setAdapter(adapter);
@@ -52,6 +49,5 @@ public class Principal extends AppCompatActivity {
                 }
             }
         });
-
     }
 }
